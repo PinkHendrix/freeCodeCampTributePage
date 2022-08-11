@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+
+      html {
+        /* Setting a base font size of 10px give us easier rem calculations
+             Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+           */
+        font-size: 18px;
+      }
+      
+      body {
+        font-family: 'Helvetica Neue', sans-serif;
+        color: #2a2aaa;
+      }
+      
+      h1 {
+        font-size: 4rem;
+        margin-bottom: 0;
+      }
+      
+      img {
+        max-width: 100%;
+        display: block;
+        height: auto;
+        margin: 0 auto;
+      }
+      
+      #img-div {
+        background: rgb(130 120 130);
+        padding: 10px;
+        margin: 0;
+      }
+      
+      #img-caption {
+        margin: 15px 0 5px 0;
+        text-align: center;
+      }
+      
+      h3 {
+        margin: 50px 0;
+        text-align: center;
+      }
+      
+      ul {
+        max-width: 550px;
+        margin: 0 auto 50px auto;
+        text-align: left;
+        line-height: 1.6;
+      }
+      
+      li {
+        margin: 16px 0;
+      }
+      
+      a {
+        color: #477ca7;
+      }
+      
+      a:hover {
+        color: black;
+      }
+      
+      a:visited {
+        color: #74638f;
+      }
+      
+      </style>
+  </head>
+  <body>
+    <main id="main">
+      <h1 id="title">Montgomery "Buttons" Kaluhiokalani</h1>
+      <p>Stylemaster</p>
+      <figure id="img-div">
+        <img id="image" src="http://a3.espncdn.com/photo/2013/1104/as_surf_buttons1_2048.jpg" alt="Buttons Stylin'">
+        <figcaption id="img-caption">Buttons Stylin' on a nice, glassy right!</figcaption>
+      </figure>
+      <section id="tribute-info">
+        <h3 id="headline">A Legend's Life:</h3>
+        <ul>
+          <li><strong>1958</strong> - Born in Honolulu, Hawaii</li>
+          <li>
+            <strong>1973</strong> - Second Place Boy's Division at United States Surfing Championship
+          </li>
+          <li><strong>1975</strong> - Third Place at Malibu Pro</li>
+          <li><strong>1979</strong> - Winner at Malibu Pro</li>
+          <li><strong>1981</strong> - Third at Pipeline Masters & Winner at Peru International</li>
+          <li><strong>1985</strong> - Battling Darkness</li>
+          <li><strong>2006</strong> - Reformed & Surf School</li>
+          <li><strong>2013</strong> - Passing from Lung Cancer & For Always Remembered</li>
+          <h3>
+          Read more here,
+          <a id="tribute-link"
+            href="https://en.wikipedia.org/wiki/Montgomery_Kaluhiokalani" target="_blank"
+            >respect.</a>
+        </h3>
+      </section>
+    </main>
+  </body>
+</html>
